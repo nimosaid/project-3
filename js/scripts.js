@@ -1,21 +1,29 @@
 //  what we do section
-$('.main').click(function () {
-  $(this).children('.hide').slideToggle(1200);
-  $(this).children('.show').toggle(1500);
-});
-// giving feedback to the customer
-$("button").click(function (omonge) {
-  var client = document.getElementById('nameDetail').value;
-  alert(' Dear ' + ' esteemed ' + client + ' we have received your message successful. ' + ' Feel free to reach out to us anytime');
-  omonge.preventDefault();
-});
-//    reset my form button
-$("button").on('click', function () {
-  $('form').each(function () {
-    this.reset();
+$(document).ready(function() {
+  $("#click1").click(function() {
+    $("#hide1").slideToggle();
+    $("#click1").slideToggle("slow");
   });
-});
-//    portifolio section
-$(".card").hover(function () {
-  $(this).children(".card-1").fadeToggle(1000, "linear");
+  $("#hide1").click(function() {
+    $("#click1").slideToggle();
+    $("#hide1").slideToggle("slow");
+  });
+
+  $("#click2").click(function() {
+    $("#hide2").slideToggle();
+    $("#click2").slideToggle("slow");
+  });
+  $("#hide2").click(function() {
+    $("#click2").slideToggle();
+    $("#hide2").slideToggle("slow");
+  });
+
+  $("#click3").click(function() {
+    $("#hide3").slideToggle();
+    $("#click3").slideToggle("slow");
+  });
+  $("#hide3").click(function() {
+    $("#click3").slideToggle();
+    $("#hide3").slideToggle("slow");
+  });
 });

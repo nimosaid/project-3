@@ -59,6 +59,10 @@ h1 {
     padding-top: 120px;
     padding-bottom: 80px;
 }
+
+.hide, .click{
+  cursor: pointer;
+}
 .card-deck {
     padding: 1% 4%;
 }
