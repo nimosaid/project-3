@@ -4,13 +4,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 .first {
     padding-top: 14%;
     margin-bottom: 9%;
 }
-.hed {
-    background-image: url('../images/h_img.jpg');
+.hed{
+    background-image: url("../img/legs.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -21,12 +22,19 @@ h6 {
 .about {
     margin-top: 50px;
     margin-bottom: 50px;
+    color: black;
+
 }
 .resize {
     font-size: cal(1vh + 1vw + .5vmin);
+    color: black;
 }
 .about,
-.service,
+.service{
+  background-image:url("../img/s_image.jpg");
+  background-size: cover;
+  height: auto;
+  },
 .pple,
 .specific,
 .contact,
@@ -43,8 +51,8 @@ h6 {
 h1 {
     font-family: 'Akronim', cursive;
 }
-.service {
-    background-image: url('../images/s_image.jpg');
+#service {
+    background-image: url('../img/s_image.jpg');
     color: #fff;
     margin-bottom: 50px;
     background-position: center;
@@ -75,6 +83,9 @@ h1 {
     width: 49%;
     background: transparent;
 }
+strong{
+  color: black;
+}
 .form-cont textarea {
     margin-top: 10px;
     width: 100%;
@@ -83,12 +94,14 @@ h1 {
 .contact {
     padding-top: 100px;
     margin-bottom: 50px;
-    background-image: url('../images/c_image.jpg');
     background-size: cover;
     background-position: cover;
     width: 100%;
     max-width: 100%;
     margin-top: 10%;
+}
+.contact{
+  background-image:url("../img/c_image.jpg");
 }
 .footer {
     margin-top: 30px;
@@ -103,7 +116,7 @@ h1 {
 }
 ::placeholder,
 .con {
-    color: #fff;
+  color: white;
 }
 ::placeholder{
     font-size: 10px;
